@@ -1,0 +1,15 @@
+{
+  "addons": {
+    "{7b595215-9a2b-41c1-93e5-079751b00295}": {
+      "updates": [
+        {
+          "version": "1.0.2",
+          "update_link": "https://github.com/zid99825/.torrent-to-Transmission-for-Firefox/releases/download/1.0.2/default.torrent.to.Transmission-1.0.2.xpi",
+          "applications": {
+            "gecko": { "strict_min_version": "58" }
+          }
+        }
+      ]
+    }
+  }
+}
