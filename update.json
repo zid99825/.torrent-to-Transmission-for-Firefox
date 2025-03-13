@@ -6,7 +6,18 @@
           "version": "1.0.2",
           "update_link": "https://github.com/zid99825/.torrent-to-Transmission-for-Firefox/releases/download/1.0.2/default.torrent.to.Transmission-1.0.2.xpi",
           "applications": {
-            "gecko": { "strict_min_version": "58" }
+            "gecko": {
+              "strict_min_version": "58"
+            }
+          }
+        },
+        {
+          "version": "1.0.3",
+          "update_link": "https://github.com/zid99825/.torrent-to-Transmission-for-Firefox/releases/download/1.0.3/default.torrent.to.Transmission-1.0.3.xpi",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "58"
+            }
           }
         }
       ]
