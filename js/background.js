@@ -118,7 +118,7 @@ browser.runtime.onConnect.addListener(function (port) {
                     update();
                     port.postMessage({
                         "method": "rpc-complete",
-                        "req": req
+                        "req": JSON.stringify(req)
                     });
                 });
             }

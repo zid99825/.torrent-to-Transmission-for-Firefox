@@ -4,6 +4,7 @@
     title: notification title
     text: notification text
 */
+let torrentNotification = "torrent-notification"
 function showNotification(title, text) {
     // timeout stored from options
     var timeout = localStorage.notificationDuration;
@@ -14,9 +15,7 @@ function showNotification(title, text) {
         return;
     }
 
-    browser.notifications.create(function (id) {
-        console.log(id);
-    }, {
+    browser.notifications.create(torrentNotification, {
         type: "basic",
         iconUrl: "../img/icon-large.png",
         title: title,
